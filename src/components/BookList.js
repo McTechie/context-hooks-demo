@@ -1,4 +1,4 @@
-import { Component, useContext } from 'react';
+import { useContext } from 'react';
 import { BookContext } from '../contexts/BookContext';
 import { ThemeContext } from '../contexts/ThemeContext';
 
@@ -7,11 +7,9 @@ import { ThemeContext } from '../contexts/ThemeContext';
 
 // class BookList extends Component {
 //     static contextType = ThemeContext;
-
 //     render() {
 //         const { isLightTheme, light, dark } = this.context;
 //         const theme = isLightTheme ? light : dark;
-
 //         return (
 //             <div className="book-list" style={{ color: theme.fontColor, background: theme.bg }}>
 //                 <ul>
